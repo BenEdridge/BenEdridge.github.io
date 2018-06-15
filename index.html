@@ -44,7 +44,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>Example wiki page with Tiddlywiki — Musings of Ben</title>
+<title>A wiki of life by Ben Edridge — </title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~--><!--~~ Raw markup ~~-->
 
 
@@ -156,6 +156,8 @@ Error message and password prompt
 <li>$:/SiteSubtitle</li>
 
 <li>$:/SiteTitle</li>
+
+<li>$:/state/image-picker/system--1663269670</li>
 
 <li>$:/state/tab--2112689675</li>
 
@@ -351,11 +353,17 @@ Error message and password prompt
 
 <li>$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary</li>
 
+<li>$:/temp/search</li>
+
 <li>$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.17/index.html</li>
 
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
+
+<li>15th June 2018</li>
+
+<li>Example tiddler</li>
 
 </ul>
 </p>
@@ -8916,7 +8924,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20180615044928580" modified="20180615044930432" title="$:/DefaultTiddlers">
+<div created="20180615044928580" modified="20180615045613975" title="$:/DefaultTiddlers">
 <pre>GettingStarted
 </pre>
 </div>
@@ -9005,11 +9013,14 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20180615044920909" modified="20180615044923661" title="$:/SiteSubtitle">
-<pre>Musings of Ben</pre>
+<div created="20180615044920909" modified="20180615045603688" title="$:/SiteSubtitle">
+<pre></pre>
 </div>
-<div created="20180615044908310" modified="20180615044917917" title="$:/SiteTitle">
-<pre>Example wiki page with Tiddlywiki</pre>
+<div created="20180615044908310" modified="20180615045601481" title="$:/SiteTitle">
+<pre>A wiki of life by Ben Edridge</pre>
+</div>
+<div created="20180615045715924" modified="20180615045715924" title="$:/state/image-picker/system--1663269670">
+<pre>show</pre>
 </div>
 <div created="20180615045052980" modified="20180615045052980" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Advanced</pre>
@@ -9023,10 +9034,10 @@ Error message and password prompt
 <div created="20180615045028016" modified="20180615045034465" title="$:/state/tab/moresidebar-401116514">
 <pre>$:/core/ui/MoreSideBar/Plugins</pre>
 </div>
-<div created="20180615044944909" modified="20180615045024788" title="$:/state/tab/sidebar--1835078512">
-<pre>$:/core/ui/SideBar/More</pre>
+<div created="20180615044944909" modified="20180615045633695" title="$:/state/tab/sidebar--1835078512">
+<pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div list="GettingStarted $:/ControlPanel" title="$:/StoryList">
+<div list="[[15th June 2018]] [[Example tiddler]]" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20180615045148739" modified="20180615045148739" title="$:/temp/HidePluginWarning">
@@ -9045,19 +9056,19 @@ Error message and password prompt
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///Users/admin/Code/BenEdridge.github.io/index.html&quot;
+            &quot;text&quot;: &quot;http://wiki.benedridge.com/&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;wiki.benedridge.com&quot;
         },
         &quot;$:/info/url/hostname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/hostname&quot;,
-            &quot;text&quot;: &quot;&quot;
+            &quot;text&quot;: &quot;wiki.benedridge.com&quot;
         },
         &quot;$:/info/url/protocol&quot;: {
             &quot;title&quot;: &quot;$:/info/url/protocol&quot;,
-            &quot;text&quot;: &quot;file:&quot;
+            &quot;text&quot;: &quot;http:&quot;
         },
         &quot;$:/info/url/port&quot;: {
             &quot;title&quot;: &quot;$:/info/url/port&quot;,
@@ -9065,7 +9076,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/Users/admin/Code/BenEdridge.github.io/index.html&quot;
+            &quot;text&quot;: &quot;/&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -9073,7 +9084,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/origin&quot;: {
             &quot;title&quot;: &quot;$:/info/url/origin&quot;,
-            &quot;text&quot;: &quot;null&quot;
+            &quot;text&quot;: &quot;http://wiki.benedridge.com&quot;
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
@@ -9741,6 +9752,9 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20180615045213543" modified="20180615045221867" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
 <pre>java</pre>
 </div>
+<div created="20180615045459042" modified="20180615045506334" title="$:/temp/search">
+<pre></pre>
+</div>
 <div created="20180615045115564" modified="20180615045115564" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.17/index.html" url="https://tiddlywiki.com/library/v5.1.17/index.html">
 <pre>loaded</pre>
 </div>
@@ -9852,6 +9866,12 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
         }
     }
 }</pre>
+</div>
+<div created="20180615045644493" modified="20180615045734811" tags="GettingStarted Journal" title="15th June 2018">
+<pre>Experimenting with TiddlyWiki!</pre>
+</div>
+<div created="20180615045740116" modified="20180615045748851" tags="[[15th June 2018]]" title="Example tiddler">
+<pre></pre>
 </div>
 
 </div>
